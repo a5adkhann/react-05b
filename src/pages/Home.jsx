@@ -1,15 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Cards from '../features/Cards'
 
 const Home = () => {
   return (
-    <div>
-      Home
-
-      <br />
-
-      <Link to="/about">Go to About</Link>
-    </div>
+    <>
+      <Cards/>
+    </>
   )
 }
 
