@@ -30,7 +30,7 @@ const Cards = () => {
 
         {cardData.map((c)=> (
         <div>
-            <h1>{c.title}</h1>
+            <h1 className='bg-red-600'>{c.title}</h1>
             <p>{c.detail}</p>    
         </div> 
         ))}
