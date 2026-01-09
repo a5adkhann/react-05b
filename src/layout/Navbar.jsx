@@ -28,6 +28,7 @@ const Navbar = () => {
         <div className={` ${toggle ? "block" : "hidden"}  mobile-navbar bg-linear-to-r from-blue-900 to-black text-white text-center`}>
           <p>Home</p>
           <p>About</p>
+          
           <p>Services</p>
           <p>Contact</p>
         </div>
